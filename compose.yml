@@ -32,6 +32,6 @@ services:
       PLUGINS: |-
         https://cdn.modrinth.com/data/TsLS8Py5/versions/HSjXMEsC/SkinsRestorer.jar
         https://github.com/AuthMe/AuthMeReloaded/releases/download/5.6.0/AuthMe-5.6.0.jar
-        https://ci.lucko.me/job/spark/lastSuccessfulBuild/artifact/spark-bukkit/build/libs/spark.jar
+        https://ci.lucko.me/job/spark/516/artifact/spark-bukkit/build/libs/spark-1.10.167-bukkit.jar
     volumes:
       - "./data:/data"
