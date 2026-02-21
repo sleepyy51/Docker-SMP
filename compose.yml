@@ -10,7 +10,6 @@ services:
     cpus: 3.0
     ports:
       - "27532:25565"
-      - "24454:24454/udp"
     environment:
       UID: "1001"
       GID: "1001"
@@ -40,6 +39,5 @@ services:
         https://ci.lucko.me/job/spark/516/artifact/spark-bukkit/build/libs/spark-1.10.167-bukkit.jar
         https://cdn.modrinth.com/data/3IEZ9vol/versions/oezVemzR/AuthMe-5.7.0-FORK-Universal.jar
         https://cdn.modrinth.com/data/lEnBBDRt/versions/xTN6HxiH/orbitalstrike-1.8.6.jar
-        https://cdn.modrinth.com/data/9eGKb6K1/versions/FeJRj2X0/voicechat-bukkit-2.6.12.jar
     volumes:
       - "./data:/data"
