@@ -1,6 +1,6 @@
-# Minecraf-Server
+# Docker SMP
 
-This is a little side project aiming to make a reproducible vanilla SMP with Paper.
+This is a little side project aiming to make a reproducible vanilla SMP using a Docker image
 Since it's mostly for mi personal use I have some plugins plus configs you should modify.
 See Below on  **What's inside my compose?**
 
@@ -18,7 +18,8 @@ Remember to change the Whitelist, by default no one can enter. You can either ad
 ENABLE_WHITELIST: "true"
 WHITELIST: |-        
 ```
-If you want to change the server icon from this:![Server Icon](https://raw.githubusercontent.com/sleepyy51/Minecraft-Server/c5da060513f2f522d605bf82e5e5546f6d22398a/server-icon.png)
+If you want to change the server icon from this:
+![Server Icon](https://raw.githubusercontent.com/sleepyy51/Minecraft-Server/c5da060513f2f522d605bf82e5e5546f6d22398a/server-icon.png)
 Modify the following line in the compose, make sure to provide a link to a 64x64 png.
 ``` yml
 ICON: "https://raw.githubusercontent.com/sleepyy51/Minecraft-Server/c5da060513f2f522d605bf82e5e5546f6d22398a/server-icon.png"
