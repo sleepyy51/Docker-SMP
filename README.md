@@ -1,7 +1,7 @@
 # Docker SMP
 
-This is a little side project aiming to make a reproducible vanilla SMP using a Docker image
-Since it's mostly for mi personal use I have some plugins plus configs you should modify.
+This is a little side project aiming to make a reproducible vanilla SMP using a Docker image.\
+Since it's mostly for mi personal use I have some plugins plus configs you should modify.\
 See Below on  **What's inside my compose?**
 
 ## Configuration
@@ -12,19 +12,19 @@ By default this server is configured to be offline I recommend changing it back 
 ``` yml
 ONLINE_MODE: "false"
 ```
-It's configured to run on port 27532, with 8GB of ram, paper for Minecraft in 1.21.11. The container it's limited to 3 cores and 10GB of ram.
+It's configured to run on port 27532, with 8GB of ram, paper for Minecraft in 1.21.11. The container it's limited to 3 cores and 10GB of ram.\\
 Remember to change the Whitelist, by default no one can enter. You can either add them manually by console or by modifing this lines
 ``` yml
 ENABLE_WHITELIST: "true"
 WHITELIST: |-        
 ```
-If you want to change the server icon from this:
-![Server Icon](https://raw.githubusercontent.com/sleepyy51/Minecraft-Server/c5da060513f2f522d605bf82e5e5546f6d22398a/server-icon.png)
+If you want to change the server icon from this:\
+![Server Icon](https://raw.githubusercontent.com/sleepyy51/Minecraft-Server/c5da060513f2f522d605bf82e5e5546f6d22398a/server-icon.png)\
 Modify the following line in the compose, make sure to provide a link to a 64x64 png.
 ``` yml
 ICON: "https://raw.githubusercontent.com/sleepyy51/Minecraft-Server/c5da060513f2f522d605bf82e5e5546f6d22398a/server-icon.png"
 ```
-The timezone of the server it's set to America/Mexico_City, you can change it back to UTC removing this line
+The timezone of the server it's set to America/Mexico_City, you can change it back to UTC removing this line:
 ``` yml
 TZ: "America/Mexico_City"
 ```
