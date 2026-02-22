@@ -12,7 +12,7 @@ By default this server is configured to be offline I recommend changing it back 
 ``` yml
 ONLINE_MODE: "false"
 ```
-It's configured to run on port 27532, with 8GB of ram, paper for Minecraft in 1.21.11. The container it's limited to 3 cores and 10GB of ram.\\
+It's configured to run on port 27532, with 8GB of ram, paper for Minecraft in 1.21.11. The container it's limited to 3 cores and 10GB of ram.\
 Remember to change the Whitelist, by default no one can enter. You can either add them manually by console or by modifing this lines
 ``` yml
 ENABLE_WHITELIST: "true"
